@@ -397,9 +397,9 @@ public class Facturacion extends javax.swing.JFrame {
 
     private void btn_AñadirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_AñadirActionPerformed
         try{
-            Connection cn = DriverManager.getConnection("jbdc:mysql://localhost/bsd_facturaccion", "root","");
+            Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/bsd_facturaccion", "root","");
             PreparedStatement pst = cn.prepareStatement("INSERT INTO FACTURACCION VALUES(?,?,?)");
-            
+            //pst.setString(1,"0");
             pst.setString(1,txt_concepto.getText().trim());// se manda a la propiedad 1 que contienes facturacion
             pst.setString(2, txt_precio.getText().trim());
             pst.setString(3, txt_cantidad.getText().trim());
@@ -419,8 +419,8 @@ public class Facturacion extends javax.swing.JFrame {
 
     private void btn_BuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_BuscarActionPerformed
         try{
-            Connection cn = DriverManager.getConnection("jbdc:mysql://localhost/bsd_facturaccion", "root","");
-            PreparedStatement pst = cn.prepareStatement("SELECT * FROM FACTURACION WHERE CONCEPTO = ?");
+            Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/bsd_facturaccion", "root","");
+            PreparedStatement pst = cn.prepareStatement("SELECT * FROM FACTURACCION WHERE CONCEPTO = ?");
             pst.setString(1, txt_item_Eliminar.getText().trim());
             
             ResultSet rs = pst.executeQuery();
