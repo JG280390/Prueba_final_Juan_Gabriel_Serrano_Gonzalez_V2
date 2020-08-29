@@ -143,6 +143,9 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="11" style="1"/>
             </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/add.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="A&#xf1;adir"/>
           </Properties>
           <Events>
@@ -234,7 +237,7 @@
                           <Component id="jScrollPane1" max="32767" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
-                      <Component id="jScrollPane4" alignment="1" pref="225" max="32767" attributes="0"/>
+                      <Component id="jScrollPane4" alignment="1" pref="215" max="32767" attributes="0"/>
                       <Component id="jScrollPane3" alignment="1" max="32767" attributes="0"/>
                       <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
                   </Group>
@@ -491,6 +494,9 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="11" style="1"/>
             </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/edit.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Modificar Item."/>
           </Properties>
           <Events>
@@ -501,6 +507,9 @@
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/delete.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Eliminar Item."/>
           </Properties>
@@ -637,6 +646,9 @@
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/buscar.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Buscar."/>
           </Properties>

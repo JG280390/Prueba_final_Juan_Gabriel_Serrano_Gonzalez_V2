@@ -119,6 +119,7 @@ public class Facturacion extends javax.swing.JFrame {
         jLabel3.setText("Cantidad");
 
         btn_Añadir.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btn_Añadir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/add.png"))); // NOI18N
         btn_Añadir.setText("Añadir");
         btn_Añadir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -246,7 +247,7 @@ public class Facturacion extends javax.swing.JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(jScrollPane1)
                         .addContainerGap())
-                    .addComponent(jScrollPane4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 225, Short.MAX_VALUE)
+                    .addComponent(jScrollPane4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 215, Short.MAX_VALUE)
                     .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jScrollPane2)))
         );
@@ -266,6 +267,7 @@ public class Facturacion extends javax.swing.JFrame {
         jLabel11.setText("Cantidad.");
 
         btn_Modificar.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btn_Modificar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/edit.png"))); // NOI18N
         btn_Modificar.setText("Modificar Item.");
         btn_Modificar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -274,6 +276,7 @@ public class Facturacion extends javax.swing.JFrame {
         });
 
         btn_Eliminar.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btn_Eliminar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/delete.png"))); // NOI18N
         btn_Eliminar.setText("Eliminar Item.");
         btn_Eliminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -353,6 +356,7 @@ public class Facturacion extends javax.swing.JFrame {
         );
 
         btn_Buscar.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btn_Buscar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/buscar.png"))); // NOI18N
         btn_Buscar.setText("Buscar.");
         btn_Buscar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
